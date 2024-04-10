@@ -96,6 +96,6 @@ jobs:
       - uses: pixta-dev/repository-mirroring-action@v1
         with:
           target_repo_url:
-            ${{ env.MIRROR_URL }}
+            ${{ git@github.com:EpitechPromo2028/B-DOP-200-LIL-2-1-chocolatine-adam.fennassi.git }}
           ssh_private_key:
             ${{ SHA256:rQACWGoH5KNZpo7/EPm7Lbjd/A/r+jgS7JpoQGs3PtQ }}
