@@ -20,7 +20,7 @@ all:			fclean $(NAME)
 				./$(NAME)
 
 $(NAME):		$(OBJ)
-				$(CC) -o $(NAME) $(OBJ) $(LDLIBS)-lcriterion
+				$(CC) -o $(NAME) $(OBJ) $(LDLIBS)
 
 coverage:
 	@gcovr
