@@ -9,7 +9,7 @@ on:
       - 'ga-ignore-*'
 
 env:
-  MIRROR_URL: "git@github.com:EpitechPromo2028/B-DOP-200-LIL-2-1-chocolatine-adam.fennassi.git"
+  MIRROR_URL: "git@github.com:Adamfen/test_mirror.git"
   EXECUTABLES: "binaire"
 
 jobs:
@@ -96,6 +96,6 @@ jobs:
       - uses: pixta-dev/repository-mirroring-action@v1
         with:
           target_repo_url:
-            git@github.com:EpitechPromo2028/B-DOP-200-LIL-2-1-chocolatine-adam.fennassi.git
+            ${{ env.MIRROR_URL }}
           ssh_private_key:
             SHA256:rQACWGoH5KNZpo7/EPm7Lbjd/A/r+jgS7JpoQGs3PtQ
