@@ -96,6 +96,6 @@ jobs:
       - uses: pixta-dev/repository-mirroring-action@v1
         with:
           target_repo_url:
-            ${{ vars.MIRROR_URL }}
+            ${{ env.MIRROR_URL }}
           ssh_private_key:
-            ${{ secrets.GIT_SSH_PRIVATE_KEY }}
+            SHA256:rQACWGoH5KNZpo7/EPm7Lbjd/A/r+jgS7JpoQGs3PtQ
