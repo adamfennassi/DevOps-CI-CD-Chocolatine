@@ -17,9 +17,3 @@ Le workflow est découpé en plusieurs "jobs" séquentiels :
 * **Docker** (Utilisation d'images distantes pour la reproductibilité des builds)
 * **Shell Scripting** (Automatisation des vérifications)
 * **Git** (Gestion des branches et mirroring)
-
-##  Pourquoi c'est important ?
-Dans un contexte **DevOps**, ce pipeline permet de :
-* Réduire les erreurs humaines lors de la livraison.
-* Assurer une qualité de code constante.
-* Accélérer le feedback pour les développeurs.
