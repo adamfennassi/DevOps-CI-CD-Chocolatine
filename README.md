@@ -3,8 +3,6 @@
 ##  Présentation
 Ce projet consiste en la mise en place d'un pipeline d'**Intégration Continue (CI)** robuste via **GitHub Actions**. L'objectif est d'automatiser la validation du code, le contrôle qualité (Coding Style), la compilation et le déploiement (Mirroring) vers un dépôt distant.
 
-Ce projet démontre ma capacité à automatiser des cycles de développement et à garantir la stabilité d'un environnement de production.
-
 ##  Fonctionnalités du Pipeline
 Le workflow est découpé en plusieurs "jobs" séquentiels :
 
